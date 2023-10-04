@@ -1,20 +1,99 @@
-<html>
+<!DOCTYPE html>
 
 <head>
+  <style>
+    body {
+          padding-top: 40px;
+          padding-bottom: 40px;
+          
+    }
 
+    .banner-image{
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 48px;
+    }
+
+    body {
+  background-color: #07e2f6;
+}
+
+.name {
+  color: #fffffe;
+}
+
+.social-icons a {
+  color: #fffffe;
+  text-decoration: none;
+}
+
+.link {
+  background-color: #00e75c;
+  display: flex;
+      align-items: center;
+      padding: 5px;
+}
+
+.link a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  flex-grow: 1;
+}
+
+.link {
+  background-color: #f9bc60;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.name {
+  color: #fffffe;
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+  </style>
 
 </head>
 
 <body>
   <div class="banner">
-    <img src="/Images/Profile picture.jpg" alt="Cat photo">
+    <img src="/Images/Profile picture.jpg" alt="Cat photo" class="banner-image">
   </div>
 
   <div class="name">
     Omar Quintero
   </div>
  
-  <div class="Social icons">
+  <div class="social-icons">
     <a href="https://www.linkedin.com/in/omar-quintero/" target="_blank">
       LinkedIn
     </a>
@@ -23,8 +102,19 @@
     </a>
   </div>
 
-  
+  <div class="link">
+    <img src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/12/SingularityProof_Lede1300.gif" class="thumbnail">
+    <a target="_blank" href="https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html">
+      The AI Revolition - Wait but Why
+    </a>
+  </div>
 
+  <div class="link">
+    <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F62784289-29bb-4fdf-9ada-642905c5a28b_400x400.png" class="thumbnail">
+    <a target="_blank" href="https://www.notboring.co/p/femsa#:~:text=Today%2C%20FEMSA's%20value%20comes%20from,Funds%20love%20c%2Dstores.">
+      FEMSA: The most interesting company in Mexico - Packy McCormick
+    </a>
+  </div>
 
 </body>
 
